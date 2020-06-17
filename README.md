@@ -5,7 +5,7 @@ This repository contains the code base for implementation of the quantum geometr
 
 The repository is structured as follows:
 
-* <b>Simulation..py</b>: this files contains Python code written for generating sequences of unitary propagators along with a range of other supplementary hyperparameters and datasets used as inputs in to the machine learning models detailed in the paper. It represents a Python adaptation of Mathematica code from [1]. The Python code is based on a class construction that outputs a range of such sequences and unitary propagators for use as training, validation and test data with respect to the machine learning models in the paper. It can be called via example Jupyter Notebooks. The code was used to  also contains a range of training and validation datasets used as the basis for the results in the paper - they are provided for the benefit of researchers and for any attempts at replication of the results of the paper.
+* <b>simulation.py</b>: this files contains Python code written for generating sequences of unitary propagators along with a range of other supplementary hyperparameters and datasets used as inputs in to the machine learning models detailed in the paper. It represents a Python adaptation of Mathematica code from [1]. The Python code is based on a class construction that outputs a range of such sequences and unitary propagators for use as training, validation and test data with respect to the machine learning models in the paper. It can be called via example Jupyter Notebooks. The code was used to  also contains a range of training and validation datasets used as the basis for the results in the paper - they are provided for the benefit of researchers and for any attempts at replication of the results of the paper.
 
 * <b>QGML.ipynb</b>: a Jupyter Notebook containing the QGML class which in turn contains each of the greybox models discussed in the paper;
 
@@ -19,7 +19,7 @@ Each file contains commentary to assist researchers in understanding the archite
 
 <b> Datasets <\b>
 
-The 
+A number of datasets (generaed using simulation.py called in a Jupyter notebook) are include in compressed .tar format. The naming convention of these files indicates their hyperparameters:
     
 [1] M. Swaddle, L. Noakes, H. Smallbone, L. Salter, and J. Wang,Generating three-qubit quantum circuits with neural networks,Physics Letters A381, 3391–3395 (2017).
 
