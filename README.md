@@ -5,12 +5,22 @@ This repository contains the code base for implementation of the quantum geometr
 
 The repository is structured as follows:
 
-* <b>Simulation</b>: this folder contains Python code <b>simulation.py</b> written for generating sequences of unitary propagatorsalong with a range of other supplementary hyperparameters and datasets used as inputs in to the machine learning models detailed in the paper. The code is based on a class construction that outputs a range of such sequences and unitary propagators for use as training, validation and test data with respect to the machine learning models in the paper. It can be called via example Jupyter Notebooks. The subfolder Simulation also contains a range of training and validation datasets used as the basis for the results in the paper - they are provided for the benefit of researchers and for any attempts at replication of the results of the paper.
+* <b>Simulation..py</b>: this files contains Python code written for generating sequences of unitary propagators along with a range of other supplementary hyperparameters and datasets used as inputs in to the machine learning models detailed in the paper. It represents a Python adaptation of Mathematica code from [1]. The Python code is based on a class construction that outputs a range of such sequences and unitary propagators for use as training, validation and test data with respect to the machine learning models in the paper. It can be called via example Jupyter Notebooks. The code was used to  also contains a range of training and validation datasets used as the basis for the results in the paper - they are provided for the benefit of researchers and for any attempts at replication of the results of the paper.
 
-* <b>Models</b>: this folder contains a range of files for use in replicating the machine learning models discussed in the paper, including:
-    * <b>QGML_models.ipynb</b>: a Jupyter Notebook containing the QGML class which in turn contains each of the greybox models discussed in the paper;
-    * <b>custom_layers.py</b>: a file containing customised layers called by the QGML class;
-    * <b>original_models.ipynb</b>: an implementation of the Mathematica code from [Swaddle (2017)] in Python.
+* <b>QGML.ipynb</b>: a Jupyter Notebook containing the QGML class which in turn contains each of the greybox models discussed in the paper;
+
+* <b>QGML - original model.ipynb</b>: a Jupyter Notebook containing the an adapted implementation of the original model from [1];
+
+* <b>customlayers.py</b>: a file containing customised layers called by the QGML class;
+
+* <b>holonomy.py</b>: implemtnation in Python code of results from [2] regarding analytic expressions for holonomic (geodesic) paths on SU(2).
     
 Each file contains commentary to assist researchers in understanding the architecture and how various coding modules fit together.
+
+<b> Datasets <\b>
+
+The 
     
+[1] M. Swaddle, L. Noakes, H. Smallbone, L. Salter, and J. Wang,Generating three-qubit quantum circuits with neural networks,Physics Letters A381, 3391–3395 (2017).
+
+[2] A. D. Boozer, Time-optimal synthesis of su(2) transformationsfor a spin-1/2 system, Physical Review A85, 012317 (2012).
