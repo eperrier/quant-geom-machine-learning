@@ -17,7 +17,7 @@ The repository is structured as follows:
     
 Each file contains commentary to assist researchers in understanding the architecture and how various coding modules fit together.
 
-<b> Datasets <\b>
+<b> Datasets </b>
 
 A number of datasets (generaed using simulation.py called in a Jupyter notebook) are include in compressed .tar format. They are provided for the benefit of researchers and for any attempts at replication of the results of the paper and in the interests of promoting open research and collaboration. The naming convention of these files indicates their hyperparameters (see paper for details), for example the file:
 
@@ -28,7 +28,9 @@ indicates a data structure (a Python class structure saved via pickle format) wi
 * ntrain1000: 1000 training examples;
 * nseg10: 10 segements in the discretised approximation of the geodesic quantum circuit;
 * hscale: the time-step h for which subunitaries are evolved.
-    
+
+All code files should be placed in the same folder. Each file will need to be extracted into the same folder as the code.
+
 [1] M. Swaddle, L. Noakes, H. Smallbone, L. Salter, and J. Wang,Generating three-qubit quantum circuits with neural networks,Physics Letters A381, 3391–3395 (2017).
 
 [2] A. D. Boozer, Time-optimal synthesis of su(2) transformationsfor a spin-1/2 system, Physical Review A85, 012317 (2012).
