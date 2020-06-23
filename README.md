@@ -19,7 +19,7 @@ Each file contains commentary to assist researchers in understanding the archite
 
 <b> Datasets </b>
 
-A number of datasets (generaed using simulation.py called in a Jupyter notebook) are include in compressed .tar format. They are provided for the benefit of researchers and for any attempts at replication of the results of the paper and in the interests of promoting open research and collaboration. The naming convention of these files indicates their hyperparameters (see paper for details), for example the file:
+A number of datasets (generated using simulation.py called in a Jupyter notebook) are include in compressed .tar format. They are provided for the benefit of researchers and for any attempts at replication of the results of the paper and in the interests of promoting open research and collaboration. The naming convention of these files indicates their hyperparameters (see paper for details), for example the file:
 
 su2_ntrain1000_nseg10_hscale0.1_su2gen1.pickle
 
