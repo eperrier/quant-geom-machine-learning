@@ -1,7 +1,7 @@
 
 # Quantum Geometric Machine Learning for Quantum Circuits and Control
 
-This repository contains the code base for implementation of the quantum geometric machine learning (QGML) methods for and simulations of time-optimal quantum circuit synthesis using discretised approximations to geodesics on certain SU($2^n$) Lie group manifolds of relevance to mult-quibit systems as set-out in the paper <i> Quantum Geometric Machine Learning for Quantum Circuits and Control</i> by Perrier et al. of the Centre for Quantum Software and Information at the University of Technology, Sydney. A preprint of the paper is [available at https://arxiv.org/[*]]. The code is implemented in Python, primarily drawing upon TensorFlow >= 2.2 and Python > 3.7 along with a range of other standard packages, including Qutip >= 4.0. 
+This repository contains the code base for implementation of the quantum geometric machine learning (QGML) methods for and simulations of time-optimal quantum circuit synthesis using discretised approximations to geodesics on certain SU($2^n$) Lie group manifolds of relevance to mult-quibit systems as set-out in the paper <i> Quantum Geometric Machine Learning for Quantum Circuits and Control</i> by Perrier et al. of the Centre for Quantum Software and Information at the University of Technology, Sydney. A preprint of the paper is available at https://arxiv.org/abs/2006.11332. The code is implemented in Python, primarily drawing upon TensorFlow >= 2.2 and Python > 3.7 along with a range of other standard packages, including Qutip >= 4.0. 
 
 The repository is structured as follows:
 
