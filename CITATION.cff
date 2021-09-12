@@ -1,0 +1,15 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Perrier
+    given-names: Elija
+    orcid: https://orcid.org/0000-0002-6052-6798
+  - family-names: Ferrie
+    given-names: Chris
+  - family-names: Tao
+    given-names: Dacheng
+title: "Quantum Geometric Machine Learning"
+version: 1.0.0
+doi: 10.5281/zenodo.5502240
+date-released: 2020-06-17
+url: "https://github.com/eperrier/quant-geom-machine-learning"
