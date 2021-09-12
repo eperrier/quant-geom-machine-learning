@@ -15,7 +15,11 @@ The repository is structured as follows:
 
 * <b>customlayers.py</b>: a file containing customised layers called by the QGML class;
 
-* <b>holonomy.py</b>: implemtnation in Python code of results from [2] regarding analytic expressions for holonomic (geodesic) paths on SU(2).
+* <b>holonomy.py</b>: implementation in Python code of results from [2] regarding analytic expressions for holonomic (geodesic) paths on SU(2).
+
+* <b>dataprocess.py</b>: datapreprocessing to convert and reshape generated unitary inputs (the target U_T) and the label data (the sequence (U_j)) for input into the main code.
+
+* <b>flattenunitary.py</b>: datapreprocessing to flatten tensors for input into the main code.
     
 Each file contains commentary to assist researchers in understanding the architecture and how various coding modules fit together.
 
