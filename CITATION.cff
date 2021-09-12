@@ -13,3 +13,21 @@ version: 1.0.0
 doi: 10.5281/zenodo.5502240
 date-released: 2020-06-17
 url: "https://github.com/eperrier/quant-geom-machine-learning"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Perrier
+    given-names: Elija
+    orcid: https://orcid.org/0000-0002-6052-6798
+  - family-names: Ferrie
+    given-names: Chris
+  - family-names: Tao
+    given-names: Dacheng
+  doi: "10.1088/1367-2630/abbf6b"
+  journal: "New Journal of Physics"
+  month: 10
+  start: 103056 # First page number
+  title: "Quantum geometric machine learning for quantum circuits and control"
+  issue: 10
+  volume: 22
+  year: 2020
