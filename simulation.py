@@ -198,7 +198,7 @@ class GenData(object):
             elif self.gens == 'xy':
                 self.su_2n_delta = self.su_2n[1::]
             elif self.gens == 'xz':
-                self.su_2n_dela = [gentest.su_2n[0],gentest.su_2n[2]]
+                self.su_2n_delta = [gentest.su_2n[0],gentest.su_2n[2]]
         
         elif self.su_dim == 2:
             self.twobod = rn.sample(list(self.su_2n[6::]),1)[0]
